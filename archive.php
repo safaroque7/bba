@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <!--start wrap-->
-<div class="container">
+<div class="container bg-white p-md-3 p-2">
     <div class="row mb-3">
         <div class="col-md-8">
             <!--start per_templat_matter-->
-            <h5 class="d-block py-md-2 py-1 px-md-2 px-1 header_bg_1 text-white mb-md-4 mb-2">
+            <h5 class="d-block py-md-2 py-1 px-md-2 px-1 header_bg_2 text-white mb-md-4 mb-2">
                 <?php if (have_posts()) : ?>
                     <?php
                     if (is_category()) {

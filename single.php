@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!--start wrap-->
-<div class="container">
+<div class="container bg-white p-3">
 
     <!--start category_and_other-->
     <div class="row mb-2">

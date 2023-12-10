@@ -1,6 +1,6 @@
 <section class="section4">
 	<div class="container bg-white pt-3">
-		<div class="row mb-md-4 mb-3">
+		<div class="row">
 			<div class="col-md-9">
 				<?php
 					echo get_template_part('get/categories/category-4');

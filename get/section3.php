@@ -58,7 +58,7 @@
 
 							<?php } ?>
 
-							<h6 class="text-dark mb-0">
+							<h6 class="text-dark-bba mb-0 hover-bba">
 								<?php the_title(); ?>
 							</h6>
 							<small class="text-muted"> <?php the_time('l, d F Y'); ?> </small>
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-3 bg-white px-md-3 p-1">
+			<div class="col-md-3 bg-white px-md-3 p-1 pt-3">
 				<?php echo get_template_part( 'get/categories/category-3' )?>
 			</div>
 			<!-- temporary segment end	-->

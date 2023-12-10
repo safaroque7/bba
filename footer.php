@@ -1,4 +1,4 @@
-<section class="container-fluid footer1_color_id py-4 wow slideInUp">
+<section class="container-fluid footer1_color_id py-4 wow slideInUp bg-white mt-md-4 mt-3">
   <div class="container footerPrintCenter">
     <div class="row d-flex">
       <div class="col-md-3 mb-3 mb-md-0">

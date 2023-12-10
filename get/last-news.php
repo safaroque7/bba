@@ -15,7 +15,7 @@
 							<?php get_template_part('include/image_for_three')?>
 
 							<div class="col-8">
-								<h6 class="text-dark mb-0">
+								<h6 class="text-dark-bba mb-0 hover-bba">
 									<?php echo short_title(6, '...'); ?>
 								</h6>
 								<small class="text-muted"> (<?php echo getPostViews(get_the_ID()); ?>) </small>

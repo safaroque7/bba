@@ -62,7 +62,7 @@
 											alt="<?php the_title();?>">
 										<?php }?>
 										<h5
-											class="position-absolute bottom-0 bg-tf text-white text-center p-2 w-100 mb-0">
+											class="position-absolute bottom-0 bg-tf text-white text-center p-2 w-100 mb-0 hover-bba">
 											<?php the_title();?> </h5>
 
 										<?php }?>
