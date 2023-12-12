@@ -1,6 +1,6 @@
 <?php
 	$catNumber = 3;
-	$catId = get_theme_mod('rjs_category_dropdown_{$catNumber}'); //changeable
+	$catId = get_theme_mod('rjs_category_dropdown_'.$catNumber); //changeable
 		if (empty($catId)) {
 			$catId = 1; //changeable
 		}
