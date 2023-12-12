@@ -3,7 +3,7 @@
     {
         //right-sidebar
         register_sidebar(array(
-            'name'          =>  'Right Sidebar',
+            'name'          =>  'Home Page right sidebar\'s all Ads',
             'id'            =>  'right-sidebar',
             'description'   =>  'Home page right side all ads',
             'before_widget' =>  '<div class="overflow-hidden">',

@@ -100,21 +100,4 @@ function rjs_customize_register($wp_customize)
     'settings'  => 'npa_category_text_id_'.$catId,
     'label' => esc_html__('Choose Background color'),
   )));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

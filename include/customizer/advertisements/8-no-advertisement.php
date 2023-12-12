@@ -1,5 +1,5 @@
 <?php
-$npa_ad_number = 7; //just change it
+$npa_ad_number = 8; //just change it
 
 $wp_customize->add_section('npa_advertisement_section' . $npa_ad_number, array(
   'panel'   => 'npa_advertisement_panel',
@@ -22,7 +22,7 @@ $wp_customize->add_control('npa_advertisement_no_' . $npa_ad_number . '_google_a
 
 // Upload Advertisement
 $wp_customize->add_setting('npa_advertisement_no_' . $npa_ad_number . '_upload', array(
-  'default'           => get_bloginfo('template_directory') . '/images/350x120px.jpg',
+  'default'           => get_bloginfo('template_directory') . '/images/415x125px.jpg',
   'sanitize_callback' => 'wp_filter_nohtml_kses'
 ));
 

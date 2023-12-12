@@ -23,7 +23,7 @@
 			</a>
 			<?php } else { ?>
 			<img class="img-fluid d-none d-md-block"
-				src="<?php echo get_template_directory_uri(); ?>/images/350x120px.jpg"
+				src="<?php echo get_template_directory_uri(); ?>/images/355x125px.jpg"
 				alt="<?php echo $npa_advertisement_no_link; ?>">
 			<?php } ?>
 		</div>
@@ -50,7 +50,7 @@
 			</a>
 			<?php } else { ?>
 			<img class="img-fluid d-none d-md-block"
-				src="<?php echo get_template_directory_uri(); ?>/images/350x120px.jpg"
+				src="<?php echo get_template_directory_uri(); ?>/images/355x125px.jpg"
 				alt="<?php echo $npa_advertisement_no_link; ?>">
 			<?php } ?>
 		</div>
@@ -77,7 +77,7 @@
 			</a>
 			<?php } else { ?>
 			<img class="img-fluid d-none d-md-block"
-				src="<?php echo get_template_directory_uri(); ?>/images/350x120px.jpg"
+				src="<?php echo get_template_directory_uri(); ?>/images/355x125px.jpg"
 				alt="<?php echo $npa_advertisement_no_link; ?>">
 			<?php } ?>
 		</div>

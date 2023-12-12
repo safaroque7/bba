@@ -11,6 +11,7 @@
 	)); 
 ?>
 
+<!-- for category name -->
 <div class="row">
 	<div class="col-12">
 		<p class="bg-cat9 py-1 px-2 mb-2">
@@ -34,7 +35,7 @@
 				query_posts(array(
 					'cat'               =>  $catId, //changeable
 					'offset'			=>	1,
-					'posts_per_page'    =>  4,
+					'posts_per_page'    =>  3,
 					'order'             =>  'DESC'
 				)); 
 				while (have_posts()) : the_post();

@@ -26,7 +26,7 @@
                 <div class="carousel-inner wow slideInDown">
                   <figure class="figure mb-2">
                       
-                          <?php $lead_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID),'400x273px');?>
+                          <?php $lead_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID),'525x315');?>
                              <?php if(!empty($lead_image)){ ?>
                               <img class="img-fluid" src="<?php echo $lead_image[0]?>" alt="<?php the_title();?>">
                               <?php } else { ?>

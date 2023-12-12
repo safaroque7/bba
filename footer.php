@@ -193,7 +193,7 @@
   <div class="row">
     <div class="col-12">
       <ul class="terms_conditions_f">
-        <li> <a href="<?php echo esc_url(get_page_link(109)) ?>"> Terms and Conditions </a> </li>
+        <li> <a href="<?php echo esc_url(get_page_link('')) ?>"> Terms and Conditions </a> </li>
       </ul>
     </div>
   </div>

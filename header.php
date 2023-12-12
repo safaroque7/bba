@@ -998,7 +998,47 @@
             ?>
         }
 
-        /* cateogyr No 16 */
+
+        /* For Photo Gallery */
+        <?php $catIdEx='photoGallery';
+        echo '.'. 'bg-cat'. $catIdEx;
+
+        ?> {
+            background:
+                <?php $bgCat=get_theme_mod('npa_category_bg_id_'. $catIdEx);
+            $npa_theme_bg_color=get_theme_mod('npa_theme_bg_color');
+
+            if ( !empty($bgCat)) {
+                echo $bgCat;
+            }
+
+            else {
+                echo $npa_theme_bg_color;
+            }
+
+            ?>;
+        }
+
+        <?php echo '.'. 'bg-cat'. $catIdEx . ' a';
+
+        ?> {
+            color:
+                <?php $textColorCat=get_theme_mod('npa_category_text_id_'. $catIdEx);
+            $npa_theme_text_color=get_theme_mod('npa_theme_text_color');
+
+            if ( !empty($textColorCat)) {
+                echo $textColorCat;
+            }
+
+            else {
+                echo $npa_theme_text_color;
+            }
+
+            ?>
+        }
+
+
+       /* cateogyr No 16 */
         <?php $catIdEx=16;
         echo '.'. 'bg-cat'. $catIdEx;
 
@@ -1533,12 +1573,12 @@
             <div class="container">
                 <div
                     class="row d-flex justify-content-between wow slideInDown <?php echo get_theme_mod('npa_main_logo_position'); ?>">
-                    <div class="col-md-4 ">
+                    <div class="col-md-3 ">
                         <?php get_template_part('get/main_logo');?>
                     </div>
-                    <div class="col-md-8 d-flex">
+                    <div class="col-md-9 d-flex">
 
-                        <div class="col-4 mb-3">
+                        <div class="col-4 overflow-hidden">
                             <div class="overflow-hidden">
                                 <?php get_template_part('advertisement/ad-1');?>
                             </div>

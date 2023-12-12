@@ -36,6 +36,10 @@ function rjs_customize_register($wp_customize)
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/13_no_category_bg_color.php';
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/14_no_category_bg_color.php';
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/15_no_category_bg_color.php';
+  require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/photo-gallery.php';
+
+
+
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/16_no_category_bg_color.php';
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/17_no_category_bg_color.php';
   require get_template_directory() . '/include/customizer/npa_all_categories_bg_color/18_no_category_bg_color.php';

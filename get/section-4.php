@@ -26,6 +26,7 @@
 					echo get_template_part('get/categories/category-14');
 						echo get_template_part('advertisement/ad-28-29');
 					echo get_template_part('get/categories/category-15');
+						echo get_template_part('get/photo-gallery');
 				?>
 			</div>
 

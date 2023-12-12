@@ -17,5 +17,5 @@ if (!empty($npa_advertisement_no_google_adSense)) {
         <img src="<?php echo $npa_advertisement_no_upload; ?>" alt="<?php echo $npa_advertisement_no_link; ?>">
     </a>
 <?php } else { ?>
-    <img class="img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri(); ?>/images/350x120px.jpg" alt="<?php echo $npa_advertisement_no_link; ?>">
+    <img class="img-fluid d-none d-md-block" src="<?php echo get_template_directory_uri(); ?>/images/250x85px.jpg" alt="<?php echo $npa_advertisement_no_link; ?>">
 <?php } ?>
