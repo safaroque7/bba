@@ -8,7 +8,6 @@ $wp_customize->add_section('npa_address_titile', array(
 // Contact title
 $wp_customize->add_setting('npa_contact_title', array(
   'default'           => '#',
-  'sanitize_callback' => 'wp_filter_nohtml_kses',
   'transport'         => 'refresh'
 ));
 $wp_customize->add_control('npa_contact', array(
@@ -38,20 +37,18 @@ $wp_customize->add_control('npa_address', array(
 $wp_customize->add_setting('npa_phone_number', array(
   'default'           => '',
   'transport'         => 'refresh',
-  'sanitize_callback' => 'absint',
 ));
 $wp_customize->add_control('npa_phone_number', array(
   'label'         => esc_html__('Phone Number', 'npa'),
   'settings'      => 'npa_phone_number',
   'section'       => 'npa_address_titile',
-  'type'          => 'number'
+  'type'          => 'text'
 ));
 
 // email address
 $wp_customize->add_setting('npa_email_address', array(
   'default'           => '',
   'transport'         => 'refresh',
-  'sanitize_callback' => 'sanitize_email',
 ));
 $wp_customize->add_control('npa_email_address', array(
   'label'         => __('Email Address', 'npa'),

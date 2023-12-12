@@ -53,7 +53,7 @@
 											if (!empty($videolink) or !empty($fbVideo)) {
 											get_template_part('include/for_542x348px');
 											} else {
-											$lead_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), '542x348px');?>
+											$lead_image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), '525x310');?>
 										<?php if (!empty($lead_image)) {?>
 										<img class="img-fluid" src="<?php echo $lead_image[0] ?>"
 											alt="<?php the_title();?>">

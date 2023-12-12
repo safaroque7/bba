@@ -1,4 +1,4 @@
-<div>
+<div class="wow zoomIn">
     <?php while (have_posts()): the_post(); ?>
         <a href="<?php the_permalink() ?>" class="text-dark mb-0">
             <?php

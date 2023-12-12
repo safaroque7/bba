@@ -55,8 +55,8 @@ include_once('include/title_name.php');
 //for calender widget
 include_once('include/calendar_widget.php');
 
-//for e_paper_post_type
-include_once('include/e_paper_post_type.php');
+//e-paper-post-type.php
+include_once('include/e-paper-post-type.php');
 
 //for menu
 include_once('include/menu.php');
@@ -65,7 +65,7 @@ include_once('include/menu.php');
 include_once('include/content_below_tag.php');
 
 //for special advertisement
-//include_once('include/special_advertisement.php');
+include_once('include/special_advertisement.php');
 
 //for facebook widget
 include_once('include/facebook_widget.php');
@@ -75,6 +75,9 @@ include_once('include/widget/widget-right-sidebar.php');
 
 // all category names, background and color
 include_once('include/customizer/npa-all-categories_bg_color/npa-all-categories_bg_color.php');
+
+//for short title
+include_once('include/all-link-taxonomy.php');
 
 
 

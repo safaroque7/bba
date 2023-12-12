@@ -1,5 +1,5 @@
 <?php
-    function special_advertisement_post_type(){
+    function specialAdvertisementPostType(){
         register_post_type('special', array(
             'label'     =>  'বিশেষ বিজ্ঞাপন', array(
                 'name'                  =>  __('special_advertisement'),
@@ -17,9 +17,9 @@
             'has_archive'           =>  true,
             'hierarchical'          =>  false,
             'capability_type'       =>  'page',
-            'menu_position'         =>  10,
+            'menu_position'         =>  35,
             'rewrite'               =>  array('slug'=>'special_advertisement'),
             'supports'              =>  array('title', 'thumbnail')
         ));
     }
-    add_action('init', 'special_advertisement_post_type');
+    add_action('init', 'specialAdvertisementPostType');
